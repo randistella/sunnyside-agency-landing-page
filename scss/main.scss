@@ -4,6 +4,7 @@
 .wrapper {
     font-family: 'Barlow', sans-serif;
 
+    // HEADER
     .header {
         display: flex;
         flex-direction: column;
@@ -13,6 +14,9 @@
         background: url(/dist/images/desktop/image-header.jpg) no-repeat center center/cover;
     }
 
+    // NAV
+
+    // CONTENT GRID
     .content {
 
         .row {
@@ -29,86 +33,52 @@
             }
 
             .left {
-                background-color: green;
+                
                 height: 300px;
             }
 
             .right {
-                background-color: blue;
+                
                 height: 300px;
             }
         }
     }
+
+    // TESTIMONIALS
+
+
+    // CONTENT SMALL IMAGES
+    .content-small {
+
+        .row-img {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: center;
+
+            .content-img {
+                height: 300px;
+                width: 300px;
+            }
+
+            .milk {
+                background: url(/dist/images/desktop/image-gallery-milkbottles.jpg) no-repeat center center/cover;
+            }
+
+            .orange {
+                background: url(/dist/images/desktop/image-gallery-orange.jpg) no-repeat center center/cover;
+            }
+
+            .cone {
+                background: url(/dist/images/desktop/image-gallery-cone.jpg) no-repeat center center/cover;
+            }
+
+            .sugarcubes {
+                background: url(/dist/images/desktop/image-gallery-sugarcubes.jpg) no-repeat center center/cover;
+            }
+        }
+    }
+
+    // FOOTER
 }
-
-
-
-
-
-// .wrapper {
-
-//     .showcase {
-//         display: flex;
-//         flex-direction: column;
-//         font-family: 'Fraunces', serif;
-
-//         h1 {
-//             text-align: center;
-//             z-index: 2;
-//             color: $white;
-//             letter-spacing: 5px;
-//             font-weight: 600;
-//         }
-
-//         img {
-//             width: 100%;
-//             z-index: 0;
-//             position: absolute;
-//             top:10;
-//             height: 400px;
-            
-//         }
-
-//         nav {
-//             font-family: 'Barlow', sans-serif;
-//             z-index: 2;
-//             height: 100px;
-//             margin-top: 30px;
-//             margin-right: 20px;
-    
-//             ul {
-//                 display: flex;
-//                 justify-content: flex-end;
-    
-//                 li {
-//                     margin: 0 10px;
-//                     list-style: none;
-//                     font-size: 16px;
-    
-//                     a {
-//                         text-decoration: none;
-//                         color: $white;
-//                     }
-//                 }
-//             }
-//         }
-//     }
-
-//     .grid {
-//         display: flex;
-//         flex-direction: row;
-//         align-items: center;
-//         justify-content: center;
-//         background-color: pink;
-//         height: 100vh;
-//         .box {
-            
-//             background: #f4f4f4;
-//             border: #ccc solid 2px;
-//             margin: 10px;
-//             padding: 10px;
-//             text-align: center;
-//             border-radius: 10px;
-//         }
-//     }
-// }
