@@ -56,22 +56,63 @@
                 flex-direction: column;
                 flex-basis: 100%;
                 flex: 1;
+                padding: 90px;
+
+                h2, h3, a {
+                    font-family: 'Fraunces', serif;
+                }
+
+                p {
+                    font-size: 15px;
+                    color: $dk-blue;
+                    line-height: 2;
+                }
             }
 
             .left {
-                
-                height: 300px;
+                height: 450px;
             }
 
             .right {
-                
-                height: 300px;
+                height: 450px;
+            }
+
+            .egg {
+                background: url(/dist/images/desktop/image-transform.jpg) no-repeat center center/cover;
+            }
+
+            .glass {
+                background: url(/dist/images/desktop/image-stand-out.jpg) no-repeat center center/cover;
+            }
+
+            .cherry {
+                background: url(/dist/images/desktop/image-graphic-design.jpg) no-repeat center center/cover;
+            }
+
+            .orange {
+                background: url(/dist/images/desktop/image-photography.jpg) no-repeat center center/cover;
             }
         }
     }
 
     // TESTIMONIALS
 
+    .testimonals {
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+
+            .column {
+                display: flex;
+                flex-direction: column;
+                flex-basis: 100%;
+                flex: 1;
+                height: 400px;
+            }
+        }
+    }
 
     // CONTENT SMALL IMAGES
     .content-small {
@@ -79,7 +120,7 @@
         .row-img {
             display: flex;
             flex-direction: row;
-            flex-wrap: wrap;
+            // flex-wrap: wrap;
             width: 100%;
             justify-content: center;
 
@@ -107,4 +148,10 @@
     }
 
     // FOOTER
+
+
+
+
+
+
 }
