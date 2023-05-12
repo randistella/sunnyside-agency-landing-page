@@ -21,20 +21,34 @@
             letter-spacing: 7px;
         }
 
+        .arrow {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
         // NAV
+    .wrap-nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+
+        .logo {
+            margin-left: 40px;
+        }
+
         nav {
             ul {
                 display: flex;
-                justify-content: flex-end;
+                flex-direction: row;
 
                 li { 
                     list-style-type: none;
-                    margin-top: 20px;
                 }
 
                 a {
                     text-decoration: none;
-                    margin: 0 30px;
+                    margin: 0 25px;
                     color: $white;
                     font-size: 15px;
                 }
@@ -48,11 +62,8 @@
                     border-radius: 40px;
                 }
             }
-
-            img {
-                background-color: blue;
-            }
         }
+    }
     }
 
     // CONTENT GRID
