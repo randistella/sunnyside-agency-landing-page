@@ -51,6 +51,7 @@
                     margin: 0 25px;
                     color: $white;
                     font-size: 15px;
+                    cursor: pointer;
                 }
 
                 .current {
@@ -60,6 +61,11 @@
                     background-color: $white;
                     padding: 15px 25px;
                     border-radius: 40px;
+                }
+
+                .current:hover {
+                    color: $white;
+                    background-color:#70D2FF;
                 }
             }
         }
@@ -90,6 +96,11 @@
                     font-size: 15px;
                     color: $dk-blue;
                     line-height: 2;
+                }
+
+                .link {
+                    text-decoration: none;
+                    font-size: 14px;
                 }
             }
 
@@ -147,6 +158,8 @@
 
     // TESTIMONIALS
     .testimonals {
+        display: flex;
+        flex-direction: column;
 
         .client {
                 text-align: center;
@@ -163,8 +176,6 @@
             .column {
                 display: flex;
                 flex-direction: column;
-                flex-basis: 100%;
-                flex: 1;
                 height: 500px;
                 justify-content: center;
                 align-items: center;
@@ -204,6 +215,7 @@
 
     // CONTENT SMALL IMAGES
     .content-small {
+        height: 400px;
 
         .row-img {
             display: flex;
@@ -212,8 +224,9 @@
             justify-content: center;
 
             .content-img {
-                height: 400px;
-                width: 400px;
+                min-height: 400px;
+                width: 100%;
+    
             }
 
             .milk {
@@ -253,6 +266,7 @@
             text-decoration: none;
             font-size: 16px;
             margin: 0 30px;
+            cursor: pointer;
           }
 
           .logo-footer {
@@ -261,6 +275,11 @@
 
           .icon {
             margin: 40px 10px;
+            cursor: pointer;
+          }
+
+          a:hover {
+            color:$white;
           }
         }
     }
